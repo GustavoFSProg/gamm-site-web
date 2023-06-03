@@ -4,9 +4,9 @@ import logo from '../../assets/foto1.jpg'
 const Container = styled.div`
   display: flex;
   width: 100vw;
-  height: 64px;
+  height: 67px;
   background: #b3daff;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   opacity: 79%;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ function Header() {
     <Container >
       <ContainerHeader >
 
-        <img style={{ borderRadius: '35px' }} src={logo} width="150px" height='130px' alt="logo" />
+        <img style={{ borderRadius: '35px' }} src={logo} width="70px" height='50px' alt="logo" />
         <List >
 
           <span >
