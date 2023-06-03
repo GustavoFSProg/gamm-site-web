@@ -11,6 +11,9 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+
+
+
  `
 
 const ContainerHeader = styled.div`
@@ -18,6 +21,13 @@ const ContainerHeader = styled.div`
   width: 70%;
   justify-content: space-between;
   align-items: center;
+
+
+@media screen and (max-width: 800px){
+  flex-direction: column;
+
+
+}
 
  `
 
@@ -31,6 +41,13 @@ font-size: 20px;
 
 @media screen and (max-width: 800px){
   flex-direction: column;
+
+  span {
+
+    width: 100rem;
+  }
+
+
 }
 
 `
