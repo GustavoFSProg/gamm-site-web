@@ -10,11 +10,7 @@ const Container = styled.div`
   opacity: 79%;
   justify-content: center;
   align-items: center;
-
-
-
-
- `
+`
 
 const ContainerHeader = styled.div`
   display: flex;
@@ -22,67 +18,47 @@ const ContainerHeader = styled.div`
   justify-content: space-between;
   align-items: center;
 
-
-@media screen and (max-width: 800px){
-  flex-direction: column;
-
-
-}
-
- `
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    margin-top: 53px;
+  }
+`
 
 const List = styled.div`
-display: flex;
-width: 58%;
-color: #00284d;
-justify-content: space-between;
-font-weight: bold;
-font-size: 20px;
+  display: flex;
+  width: 58%;
+  color: #00284d;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
 
-@media screen and (max-width: 800px){
-  flex-direction: column;
-  margin-top: 12px;
-
+  @media screen and (max-width: 800px) {
+    /* flex-direction: column;
+  margin-top: 12px; */
+    visibility: hidden;
+    /* 
   span {
 
     width: 10rem;
+  } */
   }
-
-
-}
-
 `
 
 function Header() {
-
   return (
-    <Container >
-      <ContainerHeader >
+    <Container>
+      <ContainerHeader>
+        <img style={{ borderRadius: '35px' }} src={logo} width="70px" height="50px" alt="logo" />
+        <List>
+          <span>Inicial</span>
 
-        <img style={{ borderRadius: '35px' }} src={logo} width="70px" height='50px' alt="logo" />
-        <List >
+          <span>Quem somos</span>
 
-          <span >
-            Inicial
-          </span>
+          <span>O que fazemos</span>
 
-          <span >
-            Quem somos
-          </span>
-
-
-
-          <span >
-            O que fazemos
-          </span>
-
-          <span >
-            Contato
-          </span>
+          <span>Contato</span>
         </List>
-      </ContainerHeader >
-
-
+      </ContainerHeader>
     </Container>
   )
 }
