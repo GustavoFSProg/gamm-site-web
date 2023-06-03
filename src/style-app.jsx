@@ -42,6 +42,30 @@ export const ContainerTitle = styled.div`
  align-items: center;
 
 
+ @media screen and (max-width: 800px){
+  opacity: 78%;
+
+
+
+ }
+
+
+`
+export const Span = styled.span`
+ display: flex; 
+  
+  font-size: 29px;
+   font-weight: bold;
+
+
+ @media screen and (max-width: 800px){
+  font-size: 22px;
+  width: 110%;
+  display: flex; 
+
+
+ }
+
 `
 
 export const ContainerText = styled.div`
@@ -56,4 +80,10 @@ export const ContainerText = styled.div`
  font-size: 24px;
 
 
+ @media screen and (max-width: 800px){
+  font-size: 18px;
+  width: 100%;
+
+
+ }
 `

@@ -1,5 +1,5 @@
 import Header from './components/Header/Header'
-import { Container, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 
 function App() {
 
@@ -11,9 +11,10 @@ function App() {
           <ContainerTraducao >
             <ContainerText >
 
-              <span style={{ fontSize: '29px', fontWeight: 'bold' }}>  Tradução Juramentada  </span>
+              <Span>
+                Tradução Juramentada  </Span>
               Tradutora Pública e Intérprete
-              Comercial para o Idioma Alemão
+              Comercial para o Idioma Alemão,
               Alemão / Português
 
             </ContainerText >
