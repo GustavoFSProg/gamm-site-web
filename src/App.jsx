@@ -19,10 +19,13 @@ function App() {
 
             </ContainerText >
 
+            <form style={{ display: 'flex', flexDirection: 'column' }}>
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Telefone" />
 
-            <h1 >
-              TEsting
-            </h1>
+            </form>
+
           </ContainerTraducao >
 
         </ContainerTitle>
