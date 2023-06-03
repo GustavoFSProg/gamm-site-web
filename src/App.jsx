@@ -11,7 +11,7 @@ function App() {
           <ContainerTraducao >
             <ContainerText >
 
-              Tradução Juramentada
+              <span style={{ fontSize: '29px', fontWeight: 'bold' }}>  Tradução Juramentada  </span>
               Tradutora Pública e Intérprete
               Comercial para o Idioma Alemão
               Alemão / Português

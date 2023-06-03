@@ -21,6 +21,12 @@ export const ContainerTraducao = styled.div`
  justify-content: space-around;
  align-items: center;
 
+ @media screen and (max-width: 800px){
+ flex-direction: column;
+ justify-content: space-around;
+
+ }
+
 
 `
 
@@ -40,13 +46,14 @@ export const ContainerTitle = styled.div`
 
 export const ContainerText = styled.div`
  display: flex; 
- width: 25%;
- height: 26rem;
- justify-content: center;
+ flex-direction: column;
  align-items: center;
+ width: 50%;
+ height: 20rem;
+ justify-content: center;
  color: white;
  opacity: 180%;
- font-size: 22px;
+ font-size: 24px;
 
 
 `
