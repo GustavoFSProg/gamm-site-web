@@ -41,10 +41,11 @@ font-size: 20px;
 
 @media screen and (max-width: 800px){
   flex-direction: column;
+  margin-top: 12px;
 
   span {
 
-    width: 100rem;
+    width: 10rem;
   }
 
 
