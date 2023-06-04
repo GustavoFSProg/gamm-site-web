@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 
 function App() {
 
@@ -19,9 +19,16 @@ function App() {
               Alemão / Português
 
             </ContainerText >
-            <h1 >
-              Solicite um orçamento
-            </h1>
+            <ContainerEmail >
+
+              <h1 >
+                Solicite um orçamento
+              </h1>
+              <a style={{
+                display: 'flex', textDecoration: 'none',
+                color: '#e6e600', fontSize: '22px'
+              }} href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.coml</a>
+            </ContainerEmail>
 
             <form style={{ display: 'flex', flexDirection: 'column' }}>
               {/* <Input type="text" placeholder="Nome" />
@@ -32,8 +39,6 @@ function App() {
               </ Button > */}
               {/* <a href="http://mailto:gustavosohne38@gmail.com?subject=Orçamento">Enviar email</a> */}
               {/* <a href="http://mailto:gustavosohne38@gmail.com">EFERER </a> */}
-
-              <a style={{ display: 'flex', textDecoration: 'none', color: 'yellow', fontSize: '20px' }} href="mailto:gustavosohne38@gmail.com">Enviar email</a>
 
               {/* <a href=”http://mailto:gustavosohne38@gmail.com?subject=My Subject Line” >ENTRE EM CONTATO</a> */}
             </form>

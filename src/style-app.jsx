@@ -11,6 +11,17 @@ export const Container = styled.div`
  background-size: cover;
 `
 
+
+export const ContainerEmail = styled.div`
+ display: flex; 
+ flex-direction: column;
+ align-items: center;
+ /* width: 100vw; */
+ /* height: 100vh; */
+`
+
+
+
 export const ContainerTraducao = styled.div`
  display: flex; 
  flex-direction: row;
