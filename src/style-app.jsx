@@ -50,6 +50,29 @@ export const ContainerTraducao = styled.div`
 
 `
 
+
+
+
+export const ContainerArrow = styled.div`
+ display: flex; 
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+
+
+ @media screen and (max-width: 800px){
+
+
+
+
+
+ }
+
+
+`
+
+
+
 export const ContainerTitle = styled.div`
  display: flex; 
  flex-direction: column;
