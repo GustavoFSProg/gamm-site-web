@@ -33,7 +33,7 @@ function App() {
               {/* <a href="http://mailto:gustavosohne38@gmail.com?subject=Orçamento">Enviar email</a> */}
               {/* <a href="http://mailto:gustavosohne38@gmail.com">EFERER </a> */}
 
-              <a style={{ display: 'flex', textDecoration: 'none', color: 'yellow', fontSize: '20px' }} href="http://mailto:gustavosohne38@gmail.com">Enviar email</a>
+              <a style={{ display: 'flex', textDecoration: 'none', color: 'yellow', fontSize: '20px' }} href="mailto:gustavosohne38@gmail.com">Enviar email</a>
 
               {/* <a href=”http://mailto:gustavosohne38@gmail.com?subject=My Subject Line” >ENTRE EM CONTATO</a> */}
             </form>
