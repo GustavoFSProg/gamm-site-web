@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, Text, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 
 function App() {
 
@@ -11,12 +11,18 @@ function App() {
         <ContainerTitle >
           <ContainerTraducao >
             <ContainerText >
+              <ContainerSpans >
+                <Span>    Tradução Juramentada  </Span>
 
-              <Span>
-                Tradução Juramentada  </Span>
-              Tradutora Pública e Intérprete
-              Comercial para o Idioma Alemão,
-              Alemão / Português
+                <Text>
+
+                  Tradutora Pública e Intérprete
+                  Comercial para o Idioma Alemão,
+                  Alemão / Português
+
+                </Text>
+
+              </ContainerSpans>
 
             </ContainerText >
             <ContainerEmail >

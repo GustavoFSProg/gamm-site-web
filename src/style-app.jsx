@@ -35,7 +35,9 @@ export const ContainerTraducao = styled.div`
 
  @media screen and (max-width: 800px){
  flex-direction: column;
- justify-content: space-around;
+ justify-content: center;
+ align-items: center;
+ width: 95%;
 
  }
 
@@ -59,6 +61,7 @@ export const ContainerTitle = styled.div`
 
 
 
+
  }
 
 
@@ -71,15 +74,32 @@ export const Span = styled.span`
 
 
  @media screen and (max-width: 800px){
-  font-size: 22px;
-  width: 110%;
+  font-size: 24px;
+  width: 80%;
   display: flex; 
 
 
  }
 
 `
+export const Text = styled.div`
+  display: flex; 
+  
 
+
+ @media screen and (max-width: 800px){
+  font-size: 22px;
+  width: 100%;
+  display: flex; 
+
+  margin-top: 10px;
+
+
+
+ }
+
+
+`
 
 export const Input = styled.input`
  display: flex;   
@@ -130,6 +150,32 @@ export const Button = styled.button`
 
 `
 
+
+export const ContainerSpans = styled.div`
+ display: flex; 
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ width: 100%;
+
+
+ @media screen and (max-width: 800px){
+  width: 97%;
+ flex-direction: column;
+ align-items: center;
+ display: flex; 
+ justify-content: center;
+
+
+
+
+ }
+`
+
+
+
+
 export const ContainerText = styled.div`
  display: flex; 
  flex-direction: column;
@@ -144,7 +190,9 @@ export const ContainerText = styled.div`
 
  @media screen and (max-width: 800px){
   font-size: 18px;
-  width: 100%;
+  width: 98%;
+ flex-direction: column;
+
 
 
  }
