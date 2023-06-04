@@ -1,9 +1,9 @@
 import { Container, ImgLogo, LinksContainer, LinksContainerMobile, Button, Input, FormDois, Form } from './style'
-import logo from './logo.png'
+import logo from '../../assets/logo.png'
 import { BsSearch } from 'react-icons/bs'
 import { useState } from 'react'
 import MenuIcon from '@material-ui/icons/Menu'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState('none')
@@ -52,36 +52,36 @@ function Header() {
 
       <LinksContainer>
         <div style={{ marginLeft: '40px' }}>
-          {/* <NavLink style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black' }} to="/"> */}
-          HOME
-          {/* </NavLink> */}
+          <Link style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black' }} to="/">
+            HOME
+          </Link>
         </div>
 
         <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
+          <Link
             style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
             to="/register"
-          > */}
-          CADASTRO
-          {/* </NavLink> */}
+          >
+            CADASTRO
+          </Link>
         </div>
 
         <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
+          <Link
             style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
             to="/login"
-          > */}
-          LOGIN
-          {/* </NavLink> */}
+          >
+            LOGIN
+          </Link>
         </div>
 
         <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
+          <Link
             style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
             onClick={handleLogout}
           >
             LOGOUT
-          </NavLink> */}
+          </Link>
         </div>
       </LinksContainer>
       {/* <div style={{ display: 'flex', flexDirection: 'center' }}> */}
@@ -123,36 +123,42 @@ function Header() {
         </div>
         <LinksContainerMobile>
           <div style={{ marginLeft: '20px', marginTop: '8px' }}>
-            {/* <NavLink style={{
+            <Link style={{
               textDecoration: 'none', fontSize: '21px', fontFamily: 'Roboto', color: 'white',
               cursor: 'pointer'
-            }} to="/"> */}
-            HOME
-            {/* </NavLink> */}
+            }} to="/">
+              HOME
+            </Link>
           </div>
 
           <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
+            <Link
 
+              style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
+              to="/login"
+            >
+              LOGIN
+            </Link>
           </div>
           <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
-            {/* <NavLink
+            <Link
 
               style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
               onClick={handleLogout}
 
-            > */}
-            LOGOUT
-            {/* </NavLink> */}
+            >
+              LOGOUT
+            </Link>
           </div>
 
           <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
-            {/* <NavLink
+            <Link
 
               style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
               to="/register"
-            > */}
-            CADASTRO
-            {/* </NavLink> */}
+            >
+              CADASTRO
+            </Link>
           </div>
         </LinksContainerMobile>
 

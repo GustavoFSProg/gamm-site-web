@@ -27,7 +27,7 @@ function App() {
               <a style={{
                 display: 'flex', textDecoration: 'none',
                 color: '#e6e600', fontSize: '22px'
-              }} href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.coml</a>
+              }} href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.com</a>
             </ContainerEmail>
 
             <form style={{ display: 'flex', flexDirection: 'column' }}>
