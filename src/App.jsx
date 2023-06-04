@@ -33,10 +33,11 @@ function App() {
                 Solicite um orçamento
               </h1>
               <ContainerArrow >
-                <ArrowForwardIcon style={{ marginRight: '7px', fontSize: '36px', color: 'pink' }} />
+                <ArrowForwardIcon style={{ marginRight: '7px', fontSize: '36px', color: 'red' }} />
                 <a style={{
                   display: 'flex', textDecoration: 'none',
-                  color: '#e6e600', fontSize: '22px'
+                  color: '#e6e600', fontSize: '22px',
+                  borderBottom: '1px solid yellow'
                 }} href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.com</a>
 
               </ContainerArrow >
