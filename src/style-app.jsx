@@ -18,6 +18,12 @@ export const ContainerEmail = styled.div`
  align-items: center;
  /* width: 100vw; */
  /* height: 100vh; */
+
+
+ @media screen and (max-width: 800px){
+ margin-top: -60px
+
+ }
 `
 
 
@@ -58,6 +64,8 @@ export const ContainerTitle = styled.div`
 
  @media screen and (max-width: 800px){
   opacity: 78%;
+ height: 27rem;
+
 
 
 
