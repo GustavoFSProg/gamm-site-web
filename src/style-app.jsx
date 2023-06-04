@@ -72,9 +72,9 @@ export const Span = styled.span`
 
 export const Input = styled.input`
  display: flex;   
-  font-size: 17px;
+  font-size: 16px;
   width: 16rem;
-  height: 33px;
+  height: 33.5px;
   margin-bottom: 15px;
   border-radius: 15px;
   padding-left: 14px;
@@ -99,6 +99,14 @@ export const Button = styled.button`
   border-radius: 15px;
   background: blue;
   color: white;
+  cursor: pointer;
+  background: #005580;
+  transition: 0.6s;
+
+  &:hover{
+    background: yellowgreen;
+    color: #005580;
+  }
 
 
  @media screen and (max-width: 800px){
