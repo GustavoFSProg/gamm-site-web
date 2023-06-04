@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import foto1 from './assets/foto1.jpg'
+import foto1 from './assets/alemanha-free.jpg'
 
 export const Container = styled.div`
  display: flex; 
@@ -8,6 +8,7 @@ export const Container = styled.div`
  height: 100vh;
  background: url(${foto1}) no-repeat;
  opacity: 80%;
+ background-size: cover;
 `
 
 export const ContainerTraducao = styled.div`
@@ -61,6 +62,48 @@ export const Span = styled.span`
  @media screen and (max-width: 800px){
   font-size: 22px;
   width: 110%;
+  display: flex; 
+
+
+ }
+
+`
+
+
+export const Input = styled.input`
+ display: flex;   
+  font-size: 17px;
+  width: 16rem;
+  height: 33px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding-left: 14px;
+
+
+ @media screen and (max-width: 800px){
+  font-size: 16px;
+  /* width: 110%; */
+  display: flex; 
+
+ }
+
+`
+
+export const Button = styled.button`
+ display: flex;  
+ justify-content: center ;
+ align-items: center;
+  font-size: 16px;
+  width: 17rem;
+  height: 37px;
+  border-radius: 15px;
+  background: blue;
+  color: white;
+
+
+ @media screen and (max-width: 800px){
+  font-size: 16px;
+  /* width: 110%; */
   display: flex; 
 
 

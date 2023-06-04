@@ -1,5 +1,5 @@
 import Header from './components/Header/Header'
-import { Container, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 
 function App() {
 
@@ -20,9 +20,12 @@ function App() {
             </ContainerText >
 
             <form style={{ display: 'flex', flexDirection: 'column' }}>
-              <input type="text" placeholder="Nome" />
-              <input type="text" placeholder="Email" />
-              <input type="text" placeholder="Telefone" />
+              <Input type="text" placeholder="Nome" />
+              <Input type="text" placeholder="Email" />
+              <Input type="text" placeholder="Telefone" />
+              <Button >
+                Enviar
+              </ Button >
 
             </form>
 
