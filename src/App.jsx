@@ -33,7 +33,7 @@ function App() {
                 Solicite um orçamento
               </h1>
               <ContainerArrow >
-                <ArrowForwardIcon style={{ marginRight: '10px', fontSize: '36px', color: 'pink' }} />
+                <ArrowForwardIcon style={{ marginRight: '7px', fontSize: '36px', color: 'pink' }} />
                 <a style={{
                   display: 'flex', textDecoration: 'none',
                   color: '#e6e600', fontSize: '22px'
