@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, Text, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, Text, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
 
@@ -29,17 +29,12 @@ function App() {
             </ContainerText >
             <ContainerEmail >
 
-              <h1 >
+              <H1 >
                 Solicite um orçamento
-              </h1>
+              </H1>
               <ContainerArrow >
                 <ArrowForwardIcon style={{ marginRight: '7px', fontSize: '36px', color: 'red' }} />
-                <a style={{
-                  display: 'flex', textDecoration: 'none',
-                  color: '#e6e600', fontSize: '22px',
-                  borderBottom: '1px solid yellow'
-                }} href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.com</a>
-
+                <A href="mailto:gustavosohne38@gmail.com">gerusagamm@gmail.com</A>
               </ContainerArrow >
 
             </ContainerEmail>
