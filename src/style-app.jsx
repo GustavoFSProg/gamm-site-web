@@ -219,14 +219,14 @@ export const A = styled.a`
 
 export const ContainerNome = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   color: white;
   width: 85%;
   height:  200px;
   background: #ffffcc;
-  opacity: 83%;
+  opacity: 88%;
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 15px;
@@ -240,13 +240,18 @@ export const ContainerNome = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 126px;
+  flex-direction: column;
+  height:  auto;
+
+
   } 
 `
 
 export const Texto = styled.span`
   display: flex;
+  flex-direction: column;
   color: black;
-  width: 100%;
+  width: 70%;
   align-items: center;
   justify-content: center;
   font-family: 'Assistant';
@@ -256,13 +261,23 @@ export const Texto = styled.span`
 
   @media screen and (max-width: 800px) {
     font-size: 20px;
-
+    width: 100%;
+    margin-bottom: 15px;
     display: flex;
 
   }
 `
 
+export const ImagemPessoa = styled.img`
+  display: flex;
+  width: 200px;
 
+
+  @media screen and (max-width: 800px) {
+     margin-bottom: 30px;
+
+  }
+`
 export const Nome = styled.span`
   display: flex;
   font-size: 30px;

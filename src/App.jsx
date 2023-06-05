@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
-
+import pessoa from './assets/pessoa.png'
 
 function App() {
 
@@ -57,17 +57,19 @@ function App() {
 
         </ContainerTitle>
         <ContainerNome >
-          <Nome >
-            <strong >
-              Gerusa Gamm
-            </strong>
-          </Nome>
+
 
           <Texto >
+            <Nome >
+              <strong >
+                Gerusa Gamm
+              </strong>
+            </Nome>
+
             Nomeada pela Junta Comercial  do Rio Grande
             do Sul em 2010/148
           </Texto>
-          asdfasdfasdf
+          <ImagemPessoa src={pessoa} alt="pessoa" />
         </ContainerNome>
         <ContainerMapa >
           <Contatos >
