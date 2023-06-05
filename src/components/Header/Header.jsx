@@ -25,7 +25,7 @@ function Header() {
 
   return (
     <Container>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center-between' }}>
         <ImgLogo src={logo} alt="logo" />
         <Form>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

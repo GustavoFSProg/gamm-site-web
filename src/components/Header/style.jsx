@@ -7,7 +7,7 @@ export const Container = styled.div`
   background: #b3daff;
   /* margin-top: 150px; */
   opacity: 81%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: darkblue;
 
