@@ -10,7 +10,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: darkblue;
-  padding-bottom: 18px;
 
   @media screen and (max-width: 800px) {
     padding-bottom: 9px;
