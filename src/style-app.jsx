@@ -111,7 +111,7 @@ export const Text = styled.div`
     display: flex;
     justify-content: center;
   align-items: center;
-  margin-left: 28px;
+  margin-left: 20px;
   /* margin-left: 30px; */
   /* padding-left: 20px; */
   /* padding-right: 20px; */
