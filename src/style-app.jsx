@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: url(${foto1}) no-repeat;
   opacity: 80%;
   background-size: cover;
@@ -255,3 +255,61 @@ export const Nome = styled.span`
     margin-top: 10px;
   }
 `
+
+
+export const ContainerMapa = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 85%;
+  height:  450px;
+  background: #ffffcc;
+  opacity: 83%;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+  border-radius: 105px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  @media screen and (max-width: 800px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 126px;
+  } 
+`
+
+export const Contatos = styled.span`
+  display: flex;
+  color: black;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: 'Assistant 300';
+  font-size: 25px;
+  color: #004466;
+  flex-direction: column;
+  margin-left:600px;
+  font-weight: bold;
+
+
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    display: flex;
+   align-items: center;
+  margin-left:0px;
+
+
+
+
+  }
+`
+
+
+

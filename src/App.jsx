@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
 
@@ -68,6 +68,29 @@ function App() {
           </Texto>
           asdfasdfasdf
         </ContainerNome>
+        <ContainerMapa >
+          <Contatos >
+            <Span>
+              Contato
+
+
+            </Span>
+            <span>
+              gmail@gmail.com
+            </span>
+            <span>
+              30652220
+
+            </span>
+
+            <span>
+              instagram
+
+
+            </span>
+          </Contatos>
+        </ContainerMapa>
+
 
       </Container >
 
