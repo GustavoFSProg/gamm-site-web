@@ -26,6 +26,9 @@ export const ContainerEmail = styled.div`
 
   @media screen and (max-width: 800px) {
     margin-top: -60px;
+    justify-content: center;
+  align-items: center;
+  width: 100%;
   }
 `
 
@@ -85,15 +88,21 @@ export const Span = styled.span`
     width: 100%;
     display: flex;
     font-size: 24px;
+    justify-content: center;
+  align-items: center;
   }
 `
 export const Text = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
     width: 100%;
     display: flex;
+    justify-content: center;
+  align-items: center;
 
     margin-top: 10px;
   }
@@ -172,8 +181,10 @@ export const ContainerText = styled.div`
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
-    width: 98%;
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
+  align-items: center;
   }
 `
 export const H1 = styled.h1`@media screen and (max-width: 800px) {font-size: 24px;}`
