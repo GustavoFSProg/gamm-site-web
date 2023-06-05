@@ -226,7 +226,7 @@ export const ContainerNome = styled.div`
   width: 85%;
   height:  200px;
   background: #ffffcc;
-  opacity: 88%;
+  opacity: 89%;
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 15px;
@@ -262,7 +262,7 @@ export const Texto = styled.span`
   @media screen and (max-width: 800px) {
     font-size: 20px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     display: flex;
 
   }
@@ -278,6 +278,7 @@ export const ImagemPessoa = styled.img`
 
   }
 `
+
 export const Nome = styled.span`
   display: flex;
   font-size: 30px;
@@ -293,6 +294,7 @@ export const Nome = styled.span`
     display: flex;
 
     margin-top: 10px;
+    margin-bottom: 4px;
   }
 `
 
