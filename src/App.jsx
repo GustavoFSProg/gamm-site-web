@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
+import whatsapp from './assets/whatsapp.png'
 
 function App() {
 
@@ -20,7 +21,11 @@ function App() {
 
                   Tradutora Pública e Intérprete
                   Comercial para o Idioma Alemão,
-                  Alemão / Português
+
+                  <TextAlemao >
+
+                    Alemão / Português
+                  </TextAlemao>
 
                 </Text>
 
@@ -76,9 +81,16 @@ function App() {
             <Span>
               Contato
 
-
             </Span>
+            <WhatsContainer >
+              <img width="70" src={whatsapp} alt="whastpapp" />
+              <span >
+                30652220
+              </span>
+            </WhatsContainer >
+
             <span>
+
               gmail@gmail.com
             </span>
             <span>
@@ -90,6 +102,11 @@ function App() {
               instagram
 
 
+            </span>
+
+            <span>
+
+              gmail@gmail.com
             </span>
           </Contatos>
         </ContainerMapa>

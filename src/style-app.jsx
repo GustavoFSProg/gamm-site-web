@@ -67,7 +67,7 @@ export const ContainerTitle = styled.div`
   flex-direction: column;
   width: 100%;
   height: 26rem;
-  opacity: 72%;
+  opacity: 84%;
   background: #132639;
   margin-top: 130px;
   justify-content: center;
@@ -104,6 +104,7 @@ export const Text = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
@@ -326,17 +327,17 @@ export const ContainerMapa = styled.div`
   } 
 `
 
-export const Contatos = styled.span`
+export const Contatos = styled.div`
   display: flex;
   color: black;
   width: 100%;
-  /* align-items: center; */
-  justify-content: center;
+  /* align-items: flex-start; */
+  justify-content: space-around;
   font-family: 'Assistant 300';
   font-size: 25px;
   color: #004466;
   flex-direction: column;
-  margin-left:600px;
+  /* margin-left:600px; */
   font-weight: bold;
 
 
@@ -355,3 +356,55 @@ export const Contatos = styled.span`
 
 
 
+
+
+
+export const WhatsContainer = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Assistant 300';
+  /* font-size: 25px; */
+  color: #004466;
+  /* flex-direction: column; */
+  /* margin-left:600px; */
+  font-weight: bold;
+
+
+
+  @media screen and (max-width: 800px) {
+    /* font-size: 20px;
+    display: flex;
+   align-items: center;
+  margin-left:0px; */
+
+
+
+
+  }
+`
+
+
+
+
+export const TextAlemao = styled.span`
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial';
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+  margin-top: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    display: flex;
+
+  }
+`
