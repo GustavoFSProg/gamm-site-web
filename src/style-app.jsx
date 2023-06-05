@@ -9,6 +9,12 @@ export const Container = styled.div`
   background: url(${foto1}) no-repeat;
   opacity: 80%;
   background-size: cover;
+
+
+  @media screen and (max-width: 800px) {
+    height: auto;
+
+  }
 `
 
 export const ContainerEmail = styled.div`
@@ -182,5 +188,70 @@ export const A = styled.a`
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
+  }
+`
+
+
+export const ContainerNome = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 85%;
+  height:  200px;
+  background: #ffffcc;
+  opacity: 83%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  @media screen and (max-width: 800px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 126px;
+  } 
+`
+
+export const Texto = styled.span`
+  display: flex;
+  color: black;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Assistant';
+  font-size: 24px;
+  color: #004466;
+
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+
+    display: flex;
+
+  }
+`
+
+
+export const Nome = styled.span`
+  display: flex;
+  font-size: 30px;
+  color: #004466;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans 200';
+  /* font-weight: bold; */
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    display: flex;
+
+    margin-top: 10px;
   }
 `
