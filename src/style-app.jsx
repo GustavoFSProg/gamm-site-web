@@ -24,11 +24,12 @@ export const ContainerEmail = styled.div`
   /* width: 100vw; */
   /* height: 100vh; */
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     margin-top: -60px;
     justify-content: center;
   align-items: center;
   width: 100%;
+  padding-bottom: 50px;
   }
 `
 
@@ -43,7 +44,7 @@ export const ContainerTraducao = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -72,9 +73,13 @@ export const ContainerTitle = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     opacity: 78%;
-    height: 27rem;
+    height: auto;
+  margin-top: 80px;
+  padding-top: 70px;
+
+
 
 
   }
@@ -105,6 +110,9 @@ export const Text = styled.div`
     display: flex;
     justify-content: center;
   align-items: center;
+  /* margin-left: 30px; */
+  padding-left: 20px;
+  padding-right: 20px;
 
     margin-top: 10px;
   }
@@ -161,12 +169,12 @@ export const ContainerSpans = styled.div`
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    width: 97%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 26px;
+    /* margin-left: 26px; */
   }
 `
 
