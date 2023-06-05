@@ -10,9 +10,9 @@ export const Container = styled.div`
   opacity: 80%;
   background-size: cover;
 
-
   @media screen and (max-width: 800px) {
     height: auto;
+  
 
   }
 `
@@ -47,7 +47,7 @@ export const ContainerTraducao = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 94%;
   }
 `
 
@@ -75,6 +75,8 @@ export const ContainerTitle = styled.div`
   @media screen and (max-width: 800px) {
     opacity: 78%;
     height: 27rem;
+
+
   }
 `
 export const Span = styled.span`
@@ -174,6 +176,7 @@ export const ContainerText = styled.div`
   align-items: center;
   width: 50%;
   height: 20rem;
+  /* height: auto; */
   justify-content: center;
   color: white;
   opacity: 180%;
@@ -185,6 +188,7 @@ export const ContainerText = styled.div`
     flex-direction: column;
     justify-content: center;
   align-items: center;
+  margin-top: -120px
   }
 `
 export const H1 = styled.h1`@media screen and (max-width: 800px) {font-size: 24px;}`
