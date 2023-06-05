@@ -97,6 +97,7 @@ export const Span = styled.span`
     font-size: 24px;
     justify-content: center;
   align-items: center;
+  
   }
 `
 export const Text = styled.div`
@@ -110,9 +111,10 @@ export const Text = styled.div`
     display: flex;
     justify-content: center;
   align-items: center;
+  margin-left: 28px;
   /* margin-left: 30px; */
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
 
     margin-top: 10px;
   }
@@ -169,12 +171,12 @@ export const ContainerSpans = styled.div`
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    width: 100%;
+    width: 98.7%;
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
-    /* margin-left: 26px; */
+    /* margin-left: 21px; */
   }
 `
 
