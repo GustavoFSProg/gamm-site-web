@@ -174,12 +174,12 @@ export const ContainerSpans = styled.div`
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    width: 98.7%;
+    width: 93.8%;
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
-    /* margin-left: 21px; */
+    margin-left: 25px;
   }
 `
 
@@ -423,8 +423,8 @@ export const TextAlemao = styled.span`
   @media screen and (max-width: 800px) {
     font-size: 20px;
     width: 100%;
-    /* margin-bottom: 25px; */
     display: flex;
+    margin-left: -51px;
 
   }
 `
@@ -500,9 +500,6 @@ export const InstaContainer = styled.div`
   @media screen and (max-width: 800px) {
     width: 100%;
     margin-left: 20px;
-
-
-
 
 
   }
