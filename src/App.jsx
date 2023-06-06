@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, MapaImage, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
-import foto1 from './assets/alemanha-free.jpg'
+import foto1 from './assets/mapa.png'
 
 
 function App() {
@@ -111,13 +111,11 @@ function App() {
                 </span>
               </InstaContainer >
 
-
-
             </Contatos>
 
             <div style={{ display: 'flex', color: 'black', width: '100%' }}>
 
-              <img style={{ borderRadius: '18px' }} width="340" src={foto1} alt="whastpapp" />
+              <MapaImage style={{ borderRadius: '18px' }} src={foto1} alt="whastpapp" />
 
             </div>
           </ContainerGeral>

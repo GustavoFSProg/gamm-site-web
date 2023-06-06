@@ -311,7 +311,7 @@ export const ContainerMapa = styled.div`
   width: 87%;
   height:  450px;
   background: #ffffcc;
-  opacity: 83%;
+  opacity: 88%;
   /* margin-top: 100px; */
   margin-bottom: 100px;
   border-radius: 105px;
@@ -506,4 +506,17 @@ export const InstaContainer = styled.div`
 
 
   }
+`
+
+export const MapaImage = styled.img`
+  width: 340px;
+
+
+  @media screen and (max-width: 900px) {
+    width: 260px;
+
+
+
+  }
+
 `
