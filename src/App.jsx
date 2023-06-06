@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
@@ -77,38 +77,59 @@ function App() {
           <ImagemPessoa src={pessoa} alt="pessoa" />
         </ContainerNome>
         <ContainerMapa >
-          <Contatos >
-            <Span>
-              Contato
 
-            </Span>
-            <WhatsContainer >
-              <img width="70" src={whatsapp} alt="whastpapp" />
-              <span >
-                30652220
+          <ContainerGeral >
+            <Contatos >
+              <Span>
+                Contato
+
+              </Span>
+
+              <WhatsContainer >
+                <img width="36" src={whatsapp} alt="whastpapp" />
+                <span >
+                  30652220
+                </span>
+              </WhatsContainer >
+
+              <span>
+
+                gmail@gmail.com
               </span>
-            </WhatsContainer >
+              <span>
+                30652220
 
-            <span>
-
-              gmail@gmail.com
-            </span>
-            <span>
-              30652220
-
-            </span>
-
-            <span>
-              instagram
+              </span>
 
 
-            </span>
+              <span>
+                instagram
 
-            <span>
 
-              gmail@gmail.com
-            </span>
-          </Contatos>
+              </span>
+
+              <span>
+
+                gmail@gmail.com
+              </span>
+
+
+            </Contatos>
+
+            <div style={{ display: 'flex', color: 'black', width: '100%' }}>
+
+              <span>
+
+                CCCCCCCCC
+              </span>
+              <span>
+                30652220
+
+              </span>
+            </div>
+          </ContainerGeral>
+
+
         </ContainerMapa>
 
 
