@@ -86,9 +86,11 @@ export const ContainerTitle = styled.div`
 `
 export const Span = styled.span`
   display: flex;
+  margin-left: 15px;
 
   font-size: 29px;
   font-weight: bold;
+  margin-bottom: 15px;
 
   @media screen and (max-width: 800px) {
     font-size: 24px;
@@ -306,7 +308,7 @@ export const ContainerMapa = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
-  width: 85%;
+  width: 87%;
   height:  450px;
   background: #ffffcc;
   opacity: 83%;
@@ -322,9 +324,16 @@ export const ContainerMapa = styled.div`
     align-items: center;
     display: flex;
     justify-content: center;
+    width: auto;
 
     margin-bottom: 126px;
     flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  border-radius: 50px;
+
+
+
 
   } 
 `
@@ -332,11 +341,11 @@ export const ContainerMapa = styled.div`
 export const Contatos = styled.div`
   display: flex;
   color: black;
-  width: 70%;
+  width: 100%;
   /* align-items: center; */
-  /* justify-content: center; */
+  justify-content: center;
   font-family: 'Assistant 300';
-  font-size: 25px;
+  font-size: 22px;
   color: #004466;
   flex-direction: column;
   /* margin-left:600px; */
@@ -348,9 +357,12 @@ export const Contatos = styled.div`
   @media screen and (max-width: 800px) {
     font-size: 20px;
     display: flex;
-   /* align-items: center; */
-  margin-left:120px;
+   align-items: center;
+  margin-left: 0px;
   justify-content: center;
+  width: 30%;
+  margin-bottom: 30px;
+
 
 
 
@@ -369,11 +381,13 @@ export const WhatsContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   font-family: 'Assistant 300';
-  /* font-size: 25px; */
+  font-size: 22px;
   color: #004466;
   /* flex-direction: column; */
   /* margin-left:600px; */
   font-weight: bold;
+  margin-bottom: 1px;
+
 
 
 
@@ -382,6 +396,8 @@ export const WhatsContainer = styled.div`
     display: flex;
    align-items: center;
   margin-left:0px; */
+  width: 100%;
+
 
 
 
@@ -417,13 +433,76 @@ export const ContainerGeral = styled.span`
    display: flex;
   justify-content: space-around;
   color: black;
-   width: 100%;
+   width: 91%;
   flex-direction: row;
+
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
   /* justify-content: center; */
   align-items: center ;
+
+
+
+  }
+`
+
+
+
+
+export const GmailContainer = styled.div`
+  display: flex;
+  width: 48%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Assistant 300';
+  font-size: 22px;
+  color: #004466;
+  /* flex-direction: column; */
+  /* margin-left:600px; */
+  font-weight: bold;
+  margin-top: 5px;
+
+
+
+
+  @media screen and (max-width: 800px) {
+    /* font-size: 20px;
+    display: flex;
+   align-items: center;
+  margin-left:0px; */
+
+
+
+
+  }
+`
+
+
+
+
+
+export const InstaContainer = styled.div`
+  display: flex;
+  width: 18%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Assistant 300';
+  font-size: 22px;
+  color: #004466;
+  /* flex-direction: column; */
+  /* margin-left:600px; */
+  font-weight: bold;
+  margin-top: 5px;
+
+
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    margin-left: 20px;
+
+
+
 
 
   }

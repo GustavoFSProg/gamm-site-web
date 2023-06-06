@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
+import foto1 from './assets/alemanha-free.jpg'
+
 
 function App() {
 
@@ -86,46 +88,37 @@ function App() {
               </Span>
 
               <WhatsContainer >
-                <img width="36" src={whatsapp} alt="whastpapp" />
+                <img width="26" style={{ display: 'flex', marginRight: '6px' }} src={whatsapp} alt="whastpapp" />
                 <span >
                   30652220
                 </span>
               </WhatsContainer >
 
-              <span>
-
-                gmail@gmail.com
-              </span>
-              <span>
-                30652220
-
-              </span>
+              <GmailContainer >
+                <img width="26" style={{ display: 'flex', marginRight: '6px' }} src={whatsapp} alt="whastpapp" />
+                <span >
+                  gerusagamm@gmail.com
+                </span>
+              </GmailContainer >
 
 
-              <span>
-                instagram
 
 
-              </span>
+              <InstaContainer >
+                <img width="26" style={{ display: 'flex', marginRight: '6px' }} src={whatsapp} alt="whastpapp" />
+                <span >
+                  @instagram
+                </span>
+              </InstaContainer >
 
-              <span>
-
-                gmail@gmail.com
-              </span>
 
 
             </Contatos>
 
             <div style={{ display: 'flex', color: 'black', width: '100%' }}>
 
-              <span>
+              <img style={{ borderRadius: '18px' }} width="340" src={foto1} alt="whastpapp" />
 
-                CCCCCCCCC
-              </span>
-              <span>
-                30652220
-
-              </span>
             </div>
           </ContainerGeral>
 
