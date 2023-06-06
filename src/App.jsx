@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, MapaImage, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, MapaImage, TextoDois, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
@@ -18,7 +18,6 @@ function App() {
             <ContainerText >
               <ContainerSpans >
                 <Span>    Tradução Juramentada  </Span>
-
                 <Text>
 
                   Tradutora Pública e Intérprete
@@ -28,11 +27,8 @@ function App() {
 
                     Alemão / Português
                   </TextAlemao>
-
                 </Text>
-
               </ContainerSpans>
-
             </ContainerText >
             <ContainerEmail >
 
@@ -64,22 +60,21 @@ function App() {
 
         </ContainerTitle>
         <ContainerNome >
-
-
           <Texto >
             <Nome >
               <strong >
                 Gerusa Gamm
               </strong>
             </Nome>
+            <TextoDois >
 
-            Nomeada pela Junta Comercial  do Rio Grande
-            do Sul em 2010/148
+              Nomeada pela Junta Comercial  do Rio Grande
+              do Sul em 2010/148
+            </TextoDois >
           </Texto>
           <ImagemPessoa src={pessoa} alt="pessoa" />
         </ContainerNome>
         <ContainerMapa >
-
           <ContainerGeral >
             <Contatos >
               <Span>
@@ -100,10 +95,6 @@ function App() {
                   gerusagamm@gmail.com
                 </span>
               </GmailContainer >
-
-
-
-
               <InstaContainer >
                 <img width="26" style={{ display: 'flex', marginRight: '6px' }} src={whatsapp} alt="whastpapp" />
                 <span >
