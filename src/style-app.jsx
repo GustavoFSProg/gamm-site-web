@@ -116,7 +116,7 @@ export const Text = styled.div`
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
-    width: 98%;
+    width: 96%;
     display: flex;
     justify-content: center;
   align-items: center;
@@ -193,7 +193,7 @@ export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 45%;
   height: 20rem;
   /* height: auto; */
   justify-content: center;
