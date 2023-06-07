@@ -15,21 +15,21 @@ function App() {
         <Header />
         <ContainerTitle >
           <ContainerTraducao >
-            {/*  <ContainerText >
-              <ContainerSpans > */}
-            <span>    Tradução Juramentada  </span>
-            <div>
+            <ContainerText >
+              <ContainerSpans >
+                <Span>    Tradução Juramentada  </Span>
+                <Text>
 
-              Tradutora Pública e Intérprete
-              Comercial para o Idioma Alemão,
+                  Tradutora Pública e Intérprete
+                  Comercial para o Idioma Alemão,
 
-              <p >
+                  <TextAlemao >
 
-                Alemão / Português
-              </p>
-            </div>
-            {/* </ContainerSpans> */}
-            {/* </ContainerText > */}
+                    Alemão / Português
+                  </TextAlemao>
+                </Text>
+              </ContainerSpans>
+            </ContainerText >
             <ContainerEmail >
 
               <H1 >

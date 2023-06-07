@@ -36,7 +36,7 @@ export const ContainerEmail = styled.div`
 export const ContainerTraducao = styled.div`
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 100%;
   /* height: 26rem; */
   /* opacity: 52%; */
   /* background: #204060; */
@@ -74,15 +74,15 @@ export const ContainerTitle = styled.div`
   align-items: center;
 
   @media screen and (max-width: 900px) {
-    opacity: 78%;
+    /* opacity: 78%; */
     height: auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   padding-top: 70px;
 
 
 
 
-  }
+  } 
 `
 export const Span = styled.span`
   display: flex;
