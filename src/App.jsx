@@ -18,7 +18,7 @@ function App() {
             {/*  <ContainerText >
               <ContainerSpans > */}
             <Span>    Tradução Juramentada  </Span>
-            <div>
+            <Text>
 
               Tradutora Pública e Intérprete
               Comercial para o Idioma Alemão,
@@ -27,7 +27,7 @@ function App() {
 
                 Alemão / Português
               </TextAlemao>
-            </div>
+            </Text>
             {/* </ContainerSpans> */}
             {/* </ContainerText > */}
             <br />

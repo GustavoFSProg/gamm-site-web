@@ -47,8 +47,9 @@ export const ContainerTraducao = styled.div`
   @media screen and (max-width: 900px) {
     display: flex;
   flex-direction: column;
-  width: 98%;
-  padding-left: 2px;
+  width: 100%;
+  /* margin-left: 10px; */
+  /* padding-right: 5px; */
   /* padding-right: 15px; */
   /* height: 26rem; */
   /* opacity: 52%; */
@@ -115,13 +116,13 @@ export const Text = styled.div`
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: center;
   align-items: center;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   /* margin-left: 30px; */
-  /* padding-left: 20px; */
+  padding-left: 20px;
   /* padding-right: 20px; */
 
     margin-top: 10px;
