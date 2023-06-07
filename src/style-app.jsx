@@ -43,13 +43,20 @@ export const ContainerTraducao = styled.div`
   /* margin-top: 130px; */
   justify-content: space-around;
   align-items: center;
-/* 
+
   @media screen and (max-width: 900px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 94%;
-  } */
+    display: flex;
+  flex-direction: column;
+  width: 96.36%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  /* height: 26rem; */
+  /* opacity: 52%; */
+  /* background: #204060; */
+  /* margin-top: 130px; */
+  justify-content: space-around;
+  align-items: center;
+  } 
 `
 
 export const ContainerArrow = styled.div`
@@ -86,21 +93,19 @@ export const ContainerTitle = styled.div`
 `
 export const Span = styled.span`
   display: flex;
-  margin-left: 15px;
 
   font-size: 29px;
   font-weight: bold;
-  margin-bottom: 15px;
-
-  @media screen and (max-width: 800px) {
-    font-size: 24px;
-    width: 100%;
-    display: flex;
-    font-size: 24px;
-    /* justify-content: center; */
-  align-items: center;
+  margin-bottom: 12px;
+/* 
+  @media screen and (min-width: 500px) {
+    /* width: 80%; */
+    /* display: flex; */
+    font-size: 22px;
+    /* justify-content: center; 
+  align-items: center; */
   
-  }
+  /* } */
 `
 export const Text = styled.div`
   display: flex;
@@ -424,7 +429,7 @@ export const TextAlemao = styled.span`
     font-size: 20px;
     width: 100%;
     display: flex;
-    margin-left: -51px;
+    /* margin-left: -51px; */
 
   }
 `
