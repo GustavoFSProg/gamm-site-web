@@ -122,7 +122,7 @@ export const Text = styled.div`
   align-items: center;
   /* margin-left: 20px; */
   /* margin-left: 30px; */
-  padding-left: 20px;
+  padding-left: 21px;
   /* padding-right: 20px; */
 
     margin-top: 10px;
