@@ -98,15 +98,11 @@ export const Span = styled.span`
   font-size: 29px;
   font-weight: bold;
   margin-bottom: 12px;
-/* 
-  @media screen and (min-width: 500px) {
-    /* width: 80%; */
-    /* display: flex; */
+
+  @media screen and (max-width: 800px) {
     font-size: 22px;
-    /* justify-content: center; 
-  align-items: center; */
   
-  /* } */
+  } 
 `
 export const Text = styled.div`
   display: flex;
