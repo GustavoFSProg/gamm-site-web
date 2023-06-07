@@ -48,7 +48,7 @@ export const ContainerTraducao = styled.div`
     display: flex;
   flex-direction: column;
   width: 98%;
-  /* padding-left: 15px; */
+  padding-left: 2px;
   /* padding-right: 15px; */
   /* height: 26rem; */
   /* opacity: 52%; */
