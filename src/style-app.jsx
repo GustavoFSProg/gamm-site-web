@@ -47,7 +47,7 @@ export const ContainerTraducao = styled.div`
   @media screen and (max-width: 900px) {
     display: flex;
   flex-direction: column;
-  width: 99%;
+  width: 98%;
   /* padding-left: 15px; */
   /* padding-right: 15px; */
   /* height: 26rem; */
