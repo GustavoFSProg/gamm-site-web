@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-import { Container, MapaImage, TextoDois, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+// import { Container, MapaImage, TextoDois, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, TextoDois, TextAlemao, ImagemPessoa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
@@ -74,7 +75,8 @@ function App() {
           </Texto>
           <ImagemPessoa src={pessoa} alt="pessoa" />
         </ContainerNome>
-        <ContainerMapa >
+
+        {/* <ContainerMapa >
           <ContainerGeral >
             <Contatos >
               <Span>
@@ -112,7 +114,7 @@ function App() {
           </ContainerGeral>
 
 
-        </ContainerMapa>
+        </ContainerMapa> */}
 
 
       </Container >
