@@ -86,6 +86,7 @@ export const ContainerTitle = styled.div`
     height: auto;
   /* margin-top: 80px; */
   padding-top: 70px;
+  margin-top: 70px;
 
 
 
