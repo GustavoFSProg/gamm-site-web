@@ -119,7 +119,7 @@ export const Text = styled.div`
   align-items: center;
   /* margin-left: 20px; */
   /* margin-left: 30px; */
-  padding-left: 5px;
+  margin-left: 15px;
   /* padding-right: 20px; */
 
     margin-top: 10px;
