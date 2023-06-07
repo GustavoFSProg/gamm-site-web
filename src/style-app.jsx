@@ -43,13 +43,13 @@ export const ContainerTraducao = styled.div`
   /* margin-top: 130px; */
   justify-content: space-around;
   align-items: center;
-
+/* 
   @media screen and (max-width: 900px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 94%;
-  }
+  } */
 `
 
 export const ContainerArrow = styled.div`
