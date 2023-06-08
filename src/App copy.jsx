@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import Header from './components/Header/Header'
-// import { Container, MapaImage, TextoDois, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
-import { Container, TextoDois, TextAlemao, ImagemPessoa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
+import { Container, MapaImage, TextoDois, InstaContainer, GmailContainer, ContainerGeral, TextAlemao, WhatsContainer, ImagemPessoa, Contatos, ContainerMapa, Text, Texto, Nome, ContainerNome, A, H1, ContainerArrow, ContainerSpans, ContainerEmail, Button, Input, Span, ContainerText, ContainerTraducao, ContainerTitle } from './style-app'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import pessoa from './assets/pessoa.png'
 import whatsapp from './assets/whatsapp.png'
@@ -17,19 +16,19 @@ function App() {
         <ContainerTitle >
           <ContainerTraducao >
             <ContainerText >
-              {/*  <ContainerSpans > */}
-              <Span>    Tradução Juramentada  </Span>
-              <Text>
+              <ContainerSpans >
+                <Span>    Tradução Juramentada  </Span>
+                <Text>
 
-                Tradutora Pública e Intérprete
-                Comercial para o Idioma Alemão,
+                  Tradutora Pública e Intérprete
+                  Comercial para o Idioma Alemão,
 
-                <TextAlemao >
+                  <TextAlemao >
 
-                  Alemão / Português
-                </TextAlemao>
-              </Text>
-              {/* </ContainerSpans> */}
+                    Alemão / Português
+                  </TextAlemao>
+                </Text>
+              </ContainerSpans>
             </ContainerText >
             <ContainerEmail >
 
@@ -58,6 +57,7 @@ function App() {
             </form>
 
           </ContainerTraducao >
+
         </ContainerTitle>
         <ContainerNome >
           <Texto >
@@ -66,16 +66,15 @@ function App() {
                 Gerusa Gamm
               </strong>
             </Nome>
-
             <TextoDois >
+
               Nomeada pela Junta Comercial  do Rio Grande
               do Sul em 2010/148
             </TextoDois >
           </Texto>
           <ImagemPessoa src={pessoa} alt="pessoa" />
         </ContainerNome>
-
-        {/* <ContainerMapa >
+        <ContainerMapa >
           <ContainerGeral >
             <Contatos >
               <Span>
@@ -113,7 +112,7 @@ function App() {
           </ContainerGeral>
 
 
-        </ContainerMapa> */}
+        </ContainerMapa>
 
 
       </Container >

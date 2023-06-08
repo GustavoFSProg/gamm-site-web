@@ -36,7 +36,7 @@ export const ContainerEmail = styled.div`
 export const ContainerTraducao = styled.div`
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 100%;
   /* height: 26rem; */
   /* opacity: 52%; */
   /* background: #204060; */
@@ -45,11 +45,19 @@ export const ContainerTraducao = styled.div`
   align-items: center;
 
   @media screen and (max-width: 900px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 94%;
-  }
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* margin-left: 10px; */
+  /* padding-right: 5px; */
+  /* padding-right: 15px; */
+  /* height: 26rem; */
+  /* opacity: 52%; */
+  /* background: #204060; */
+  /* margin-top: 130px; */
+  justify-content: space-around;
+  align-items: center;
+  } 
 `
 
 export const ContainerArrow = styled.div`
@@ -72,35 +80,32 @@ export const ContainerTitle = styled.div`
   margin-top: 130px;
   justify-content: center;
   align-items: center;
+  z-index: -8;
+
 
   @media screen and (max-width: 900px) {
-    opacity: 78%;
+    /* opacity: 78%; */
     height: auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   padding-top: 70px;
+  margin-top: 70px;
 
 
 
 
-  }
+  } 
 `
 export const Span = styled.span`
   display: flex;
-  margin-left: 15px;
 
   font-size: 29px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 
   @media screen and (max-width: 800px) {
-    font-size: 24px;
-    width: 100%;
-    display: flex;
-    font-size: 24px;
-    /* justify-content: center; */
-  align-items: center;
+    font-size: 22px;
   
-  }
+  } 
 `
 export const Text = styled.div`
   display: flex;
@@ -110,13 +115,13 @@ export const Text = styled.div`
 
   @media screen and (max-width: 800px) {
     font-size: 18px;
-    width: 100%;
+    width: 96%;
     display: flex;
     justify-content: center;
   align-items: center;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   /* margin-left: 30px; */
-  /* padding-left: 20px; */
+  margin-left: 16px;
   /* padding-right: 20px; */
 
     margin-top: 10px;
@@ -187,7 +192,7 @@ export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 45%;
   height: 20rem;
   /* height: auto; */
   justify-content: center;
@@ -245,6 +250,8 @@ export const ContainerNome = styled.div`
     margin-bottom: 126px;
   flex-direction: column;
   height:  auto;
+  width: 85%;
+
 
 
   } 
@@ -424,7 +431,7 @@ export const TextAlemao = styled.span`
     font-size: 20px;
     width: 100%;
     display: flex;
-    margin-left: -51px;
+    /* margin-left: -51px; */
 
   }
 `
@@ -525,12 +532,13 @@ export const MapaImage = styled.img`
 
 
 export const TextoDois = styled.div`
- 
 
-
-
+  font-size: 22px;
   @media screen and (max-width: 800px) {
-    width: 90%;
+    width: 92%;
+    text-indent: 9px;
+  font-size: 18px;
+
 
 
   }
