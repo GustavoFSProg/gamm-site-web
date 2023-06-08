@@ -1,4 +1,4 @@
-import { Container, ImgLogo, LinksContainer, LinksContainerMobile, Button, Input, FormDois, Form } from './style'
+import { Container, ImgLogo, SiteContainer, LinksContainer, LinksContainerMobile, Button, Input, FormDois, Form } from './style'
 import logo from './logo.png'
 import { BsSearch } from 'react-icons/bs'
 import { useState } from 'react'
@@ -38,141 +38,144 @@ function Header() {
           </div>
         </Form>
       </div>
-      <div
-        style={{
-          display: 'flex',
-          width: '25%',
-        }}
-      ></div>
+      <SiteContainer
 
-      <Button
-        onMouseLeave={() => handleDismissButtonClicked()}
-        type="button"
-        onClick={() => handleLike()}
-        style={{ marginRight: '24px' }}
       >
-        <MenuIcon size="35" />
-      </Button>
 
-      <LinksContainer>
-        <div style={{ marginLeft: '40px' }}>
-          <Link style={{
-            textDecoration: 'none', fontFamily: 'Roboto 500 , sans- serif',
-            color: '#002233', fontSize: "19px",
-          }} to="/">
-            HOME
-          </Link>
-        </div>
+        <Button
+          onMouseLeave={() => handleDismissButtonClicked()}
+          type="button"
+          onClick={() => handleLike()}
+        >
+          <MenuIcon size="35" />
+        </Button>
 
-        <div style={{ marginLeft: '40px' }}>
-          <Link style={{
-            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
-            color: '#002233', fontSize: "18px"
-          }} to="/">
-            QUEM SOMOS
-          </Link>
-        </div>
 
-        <div style={{ marginLeft: '40px' }}>
-          <Link style={{
-            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
-            color: '#002233', fontSize: "18px"
-          }} to="/">
-            O QUE FAZEMOS
-          </Link>
-        </div>
+        <LinksContainer>
+          <div style={{ marginLeft: '40px' }}>
+            <Link style={{
+              textDecoration: 'none', fontFamily: 'Roboto 500 , sans- serif',
+              color: '#002233', fontSize: "19px",
+            }} to="/">
+              HOME
+            </Link>
+          </div>
 
-        <div style={{ marginLeft: '40px' }}>
-          <Link style={{
-            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
-            color: '#002233', fontSize: "18px",
-          }} to="/">
-            CONTATO
-          </Link>
-        </div>
+          <div style={{ marginLeft: '40px' }}>
+            <Link style={{
+              textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+              color: '#002233', fontSize: "18px"
+            }} to="/">
+              QUEM SOMOS
+            </Link>
+          </div>
 
-        <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
+          <div style={{ marginLeft: '40px' }}>
+            <Link style={{
+              textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+              color: '#002233', fontSize: "18px"
+            }} to="/">
+              O QUE FAZEMOS
+            </Link>
+          </div>
+
+          <div style={{ marginLeft: '40px' }}>
+            <Link style={{
+              textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+              color: '#002233', fontSize: "18px",
+            }} to="/">
+              CONTATO
+            </Link>
+          </div>
+
+          <div style={{ marginLeft: '35px' }}>
+            {/* <NavLink
             style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
             onClick={handleLogout}
           >
             LOGOUT
           </NavLink> */}
-        </div>
-      </LinksContainer>
-      {/* <div style={{ display: 'flex', flexDirection: 'center' }}> */}
+          </div>
+        </LinksContainer>
+        {/* <div style={{ display: 'flex', flexDirection: 'center' }}> */}
 
-      <FormDois
-        style={{
-          display: `${isButtonClicked}`,
-          marginTop: '230px',
-          marginLeft: '-240px',
-        }}
-      >
-        <div
+        <FormDois
           style={{
-            display: 'flex',
-            width: '17rem',
-            alignItems: 'center',
-            justifyContent: 'center',
-            paddingBottom: '8px'
+            display: `${isButtonClicked}`,
+            marginLeft: '-240px',
+
           }}
         >
-          <Input
-            onMouseLeave={() => handleDismissButtonClicked()}
-            onMouseEnter={() => handleLike()}
-            // style={{ width: '14rem' }}
-            type="search"
-            name="search"
-            placeholder="Search..."
-          />
+          <div
+            style={{
+              display: 'flex',
+              width: '17rem',
+              alignItems: 'center',
+              justifyContent: 'center',
+              paddingBottom: '8px'
+            }}
+          >
+            <Input
+              onMouseLeave={() => handleDismissButtonClicked()}
+              onMouseEnter={() => handleLike()}
+              // style={{ width: '14rem' }}
+              type="search"
+              name="search"
+              placeholder="Search..."
+            />
 
-          <BsSearch
-            onMouseLeave={() => handleDismissButtonClicked()}
-            onMouseEnter={() => handleLike()}
-            size="26"
-            color="white"
-            style={{ marginLeft: '8px', marginTop: '11px' }}
-          />
+            <BsSearch
+              onMouseLeave={() => handleDismissButtonClicked()}
+              onMouseEnter={() => handleLike()}
+              size="26"
+              color="white"
+              style={{ marginLeft: '8px', marginTop: '11px' }}
+            />
 
-
-        </div>
-        <LinksContainerMobile>
-          <div style={{ marginLeft: '20px', marginTop: '8px' }}>
-            {/* <NavLink style={{
-              textDecoration: 'none', fontSize: '21px', fontFamily: 'Roboto', color: 'white',
-              cursor: 'pointer'
-            }} to="/"> */}
-            HOME
-            {/* </NavLink> */}
-          </div>
-
-          <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
 
           </div>
-          <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
-            {/* <NavLink
+          <LinksContainerMobile>
+            <div style={{ marginLeft: '40px', marginBottom: '5px' }}>
+              <Link style={{
+                textDecoration: 'none', fontFamily: 'Roboto 500 , sans- serif',
+                color: '#002233', fontSize: "19px",
+              }} to="/">
+                HOME
+              </Link>
+            </div>
 
-              style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
-              onClick={handleLogout}
+            <div style={{ marginLeft: '40px', marginBottom: '5px' }}>
+              <Link style={{
+                textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+                color: '#002233', fontSize: "18px"
+              }} to="/">
+                QUEM SOMOS
+              </Link>
+            </div>
 
-            > */}
-            LOGOUT
-            {/* </NavLink> */}
-          </div>
+            <div style={{ marginLeft: '40px', marginBottom: '5px' }}>
+              <Link style={{
+                textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+                color: '#002233', fontSize: "18px"
+              }} to="/">
+                O QUE FAZEMOS
+              </Link>
+            </div>
 
-          <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
-            {/* <NavLink
+            <div style={{ marginLeft: '40px', marginBottom: '90px' }}>
+              <Link style={{
+                textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+                color: '#002233', fontSize: "18px",
+              }} to="/">
+                CONTATO
+              </Link>
+            </div>
+          </LinksContainerMobile>
 
-              style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
-              to="/register"
-            > */}
-            CADASTRO
-            {/* </NavLink> */}
-          </div>
-        </LinksContainerMobile>
+        </FormDois>
+      </SiteContainer>
 
-      </FormDois>
+
 
 
 

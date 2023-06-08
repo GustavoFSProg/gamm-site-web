@@ -80,6 +80,8 @@ export const ContainerTitle = styled.div`
   margin-top: 130px;
   justify-content: center;
   align-items: center;
+  z-index: -8;
+
 
   @media screen and (max-width: 900px) {
     /* opacity: 78%; */

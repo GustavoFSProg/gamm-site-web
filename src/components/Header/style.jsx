@@ -6,13 +6,12 @@ export const Container = styled.div`
   height: 64px;
   background: #b3daff;
   /* margin-top: 150px; */
-  opacity: 81%;
+  opacity: 89%;
   justify-content: space-between;
   /* justify-content: center; */
   align-items: center;
   /* color: darkblue; */
   padding-bottom: 4px;
-
 
   @media screen and (max-width: 800px) {
     padding-bottom: 9px;
@@ -37,8 +36,11 @@ export const FormDois = styled.form`
   align-items: center;
   flex-direction: column ;
   justify-content: space-between;
-  z-index: 9999;
-  background: linear-gradient(to right top, #8c8c8c 55%, #4d4d4d 45%);
+  z-index: 8;
+  background: #b3daff;
+  height: 190px;
+
+  /* background: linear-gradient(to right top, #8c8c8c 55%, #4d4d4d 45%); */
   /* background:  black; */
   /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
   /* backdrop-filter: blur(90px) saturate(90%); */
@@ -47,11 +49,18 @@ export const FormDois = styled.form`
   padding-left: 10px;
   padding-right: 3px;
   padding-bottom: 9px;
+  opacity: 100%;
+  border-radius: 11px;
+
 
 
   @media screen and (max-width: 800px) {
-      width: 90%;
-      margin-top: 10px;
+      width: 200%;
+      margin-top: 290px;
+  z-index: 8;
+  opacity: 100%;
+
+
   }
 
 `
@@ -60,7 +69,6 @@ export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 95%;
 
   @media screen and (max-width: 800px) {
     display: none;
@@ -75,8 +83,9 @@ export const LinksContainerMobile = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-right: 15px;
+    margin-right: 43px;
     font-size:  0.9rem;
+    width: 100%;
   }
 `
 export const Input = styled.input`
@@ -106,7 +115,7 @@ export const Button = styled.button`
     justify-content: center;
     width: 35px;
     height: 38px;
-    margin-left: 3px;
+    margin-left: 43px;
     cursor: pointer;
     background: none;
     border: none;
@@ -139,5 +148,17 @@ export const ImgLupa = styled.img`
     justify-content: center;
     margin-top: 15px;
     z-index: 9999;
+  }
+`
+
+
+
+export const SiteContainer = styled.div`
+   display: flex;
+  width: 140%;
+  justify-content: center;
+
+  @media screen and (max-width: 800px) {
+  width: 40%;
   }
 `
