@@ -106,7 +106,7 @@ function Header() {
 
           }}
         >
-          <div
+          {/* <div
             style={{
               display: 'flex',
               width: '17rem',
@@ -118,10 +118,11 @@ function Header() {
             <Input
               onMouseLeave={() => handleDismissButtonClicked()}
               onMouseEnter={() => handleLike()}
-              // style={{ width: '14rem' }}
+              style={{ width: '14rem', border: 'none', color: 'transparent', background: 'transparent' }}
               type="search"
               name="search"
               placeholder="Search..."
+
             />
 
             <BsSearch
@@ -129,11 +130,11 @@ function Header() {
               onMouseEnter={() => handleLike()}
               size="26"
               color="white"
-              style={{ marginLeft: '8px', marginTop: '11px' }}
+              style={{ marginLeft: '8px', marginTop: '11px', background: 'transparent' }}
             />
 
 
-          </div>
+          </div> */}
           <LinksContainerMobile>
             <div style={{ marginLeft: '40px', marginBottom: '5px' }}>
               <Link style={{

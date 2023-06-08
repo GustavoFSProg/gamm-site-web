@@ -88,6 +88,7 @@ export const LinksContainerMobile = styled.div`
     margin-right: 43px;
     font-size:  0.9rem;
     width: 100%;
+    margin-top: 35px;
   }
 `
 export const Input = styled.input`
