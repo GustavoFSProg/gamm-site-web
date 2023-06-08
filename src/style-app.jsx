@@ -248,6 +248,8 @@ export const ContainerNome = styled.div`
     margin-bottom: 126px;
   flex-direction: column;
   height:  auto;
+  width: 85%;
+
 
 
   } 
@@ -528,12 +530,13 @@ export const MapaImage = styled.img`
 
 
 export const TextoDois = styled.div`
- 
 
-
-
+  font-size: 22px;
   @media screen and (max-width: 800px) {
-    width: 90%;
+    width: 92%;
+    text-indent: 9px;
+  font-size: 18px;
+
 
 
   }

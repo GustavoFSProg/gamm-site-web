@@ -58,7 +58,6 @@ function App() {
             </form>
 
           </ContainerTraducao >
-
         </ContainerTitle>
         <ContainerNome >
           <Texto >
@@ -67,8 +66,8 @@ function App() {
                 Gerusa Gamm
               </strong>
             </Nome>
-            <TextoDois >
 
+            <TextoDois >
               Nomeada pela Junta Comercial  do Rio Grande
               do Sul em 2010/148
             </TextoDois >
