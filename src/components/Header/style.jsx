@@ -7,9 +7,12 @@ export const Container = styled.div`
   background: #b3daff;
   /* margin-top: 150px; */
   opacity: 81%;
-  justify-content: space-around;
+  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
-  color: darkblue;
+  /* color: darkblue; */
+  padding-bottom: 4px;
+
 
   @media screen and (max-width: 800px) {
     padding-bottom: 9px;
@@ -57,6 +60,7 @@ export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 95%;
 
   @media screen and (max-width: 800px) {
     display: none;
@@ -116,11 +120,13 @@ export const Button = styled.button`
 export const ImgLogo = styled.img`
   width: 42px;
   height: 40px;
+  margin-left: 30px;
+
 
   @media screen and (max-width: 800px) {
     width: 35px;
     height: 32px;
-    margin-left: 10px;
+    margin-left: 24px;
   }
 `
 

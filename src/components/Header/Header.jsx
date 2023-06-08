@@ -25,7 +25,10 @@ function Header() {
 
   return (
     <Container>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center-between' }}>
+      <div style={{
+        display: 'flex', alignItems: 'center',
+        justifyContent: 'center',
+      }}>
         <ImgLogo src={logo} alt="logo" />
         <Form>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -46,33 +49,46 @@ function Header() {
         onMouseLeave={() => handleDismissButtonClicked()}
         type="button"
         onClick={() => handleLike()}
+        style={{ marginRight: '24px' }}
       >
         <MenuIcon size="35" />
       </Button>
 
       <LinksContainer>
         <div style={{ marginLeft: '40px' }}>
-          {/* <NavLink style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black' }} to="/"> */}
-          HOME
-          {/* </NavLink> */}
+          <Link style={{
+            textDecoration: 'none', fontFamily: 'Roboto 500 , sans- serif',
+            color: '#002233', fontSize: "19px",
+          }} to="/">
+            HOME
+          </Link>
         </div>
 
-        <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
-            style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
-            to="/register"
-          > */}
-          CADASTRO
-          {/* </NavLink> */}
+        <div style={{ marginLeft: '40px' }}>
+          <Link style={{
+            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+            color: '#002233', fontSize: "18px"
+          }} to="/">
+            QUEM SOMOS
+          </Link>
         </div>
 
-        <div style={{ marginLeft: '35px' }}>
-          {/* <NavLink
-            style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
-            to="/login"
-          > */}
-          LOGIN
-          {/* </NavLink> */}
+        <div style={{ marginLeft: '40px' }}>
+          <Link style={{
+            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+            color: '#002233', fontSize: "18px"
+          }} to="/">
+            O QUE FAZEMOS
+          </Link>
+        </div>
+
+        <div style={{ marginLeft: '40px' }}>
+          <Link style={{
+            textDecoration: 'none', fontFamily: 'Roboto 700 , sans- serif',
+            color: '#002233', fontSize: "18px",
+          }} to="/">
+            CONTATO
+          </Link>
         </div>
 
         <div style={{ marginLeft: '35px' }}>
@@ -164,7 +180,7 @@ function Header() {
 
 
 
-    </Container>
+    </Container >
   )
 }
 
