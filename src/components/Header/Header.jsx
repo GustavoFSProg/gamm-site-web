@@ -30,13 +30,13 @@ function Header() {
         justifyContent: 'center',
       }}>
         <ImgLogo src={logo} alt="logo" />
-        <Form>
+        {/* <Form>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Input type="search" name="search" placeholder="Search..." />
 
             <BsSearch size="26" color="gray" style={{ marginLeft: '8px' }} />
           </div>
-        </Form>
+        </Form> */}
       </div>
       <SiteContainer
 

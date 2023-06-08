@@ -69,6 +69,8 @@ export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-left: 310px;
+
 
   @media screen and (max-width: 800px) {
     display: none;
@@ -129,7 +131,7 @@ export const Button = styled.button`
 export const ImgLogo = styled.img`
   width: 42px;
   height: 40px;
-  margin-left: 30px;
+  margin-left: 65px;
 
 
   @media screen and (max-width: 800px) {
